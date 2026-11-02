@@ -1,0 +1,28 @@
+O AVESSO DOS DIAS — versão experimental
+
+ESTRUTURA
+- index.html: página inicial e arquivo visual de publicações.
+- sobre.html: apresentação do projeto.
+- textos/: modelos de páginas individuais para crônicas, poemas e fragmentos.
+- style.css: identidade visual e responsividade.
+- script.js: filtros do arquivo.
+
+DIREÇÃO VISUAL
+Experimental, tipográfica e assimétrica. Poucas imagens: as capas são composições tipográficas feitas em CSS, para que as palavras sejam o elemento principal. Cada publicação tem sua própria página de leitura.
+
+PERSONALIZAÇÃO
+1. Abra os arquivos em um editor de texto ou VS Code.
+2. Substitua os textos de demonstração nas páginas em textos/.
+3. Para adicionar publicação, duplique uma página de textos/, altere título, categoria e conteúdo.
+4. Na index.html, duplique um bloco <a class="post-card"> e atualize o link, categoria, título e resumo.
+5. Altere cores e fontes no início de style.css, nas variáveis de :root.
+
+PUBLICAÇÃO GRATUITA
+Você pode hospedar no GitHub Pages:
+1. Crie uma conta em github.com.
+2. Crie um repositório público.
+3. Envie todos os arquivos mantendo as pastas.
+4. Em Settings > Pages, selecione Deploy from a branch e a branch main / root.
+5. Aguarde o endereço github.io ser publicado.
+
+Observação: as fontes externas usam Google Fonts e precisam de internet. O site funciona sem imagens externas.
